@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Brandon;
+    src: url(/assets/Brandon-Grotesque-Font/brand_ssv/Brandon_bld.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(/assets/Brandon-Grotesque-Font/brand_ssv/Brandon_blk.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(/assets/Brandon-Grotesque-Font/brand_ssv/Brandon_med.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(/assets/Brandon-Grotesque-Font/brand_ssv/Brandon_reg.otf);
+  }
+  @font-face {
+    font-family: Brandon;
+    src: url(/assets/Brandon-Grotesque-Font/brand_ssv/Brandon_reg_it.otf);
+  }
+  body{
+    letter-spacing: 1.5px;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+/* header */
+.header-section{
+    background-color:#f6f6f6; 
+}
+.topbar-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    padding: 15px;
+border-right:1px solid red ;
+}
+.top-bar2{
+    display: flex;
+    align-items: center;
+   
+}
+.top-bar2 p{
+  padding-left: 10px;
+  border-left: 1px solid red;
+}
+.sss{
+  position: relative;
+  border: none;
+  height: 33px;
+}
+
+.imgs{
+  position: absolute;
+  right: 160px; 
+  top: 24px;
+
+}
+/* log */
+.top-logo{
+  text-align: center;
+  padding:15px 0;
+}
+/* NAB BAR  */
+.nab-bar-section{
+background-color:#f6f6f6;
+padding: 20px;
+}
+.nab-bar ul li{
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-left:1px solid ;
+}
+.center{
+  text-align: center;
+}
+/* banner */
+.banner-section{
+  position: relative;
+background-image: url(/assets/img/banner-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content{
+  text-align: center;
+  padding: 100px;
+}
+.color{
+color: white;
+}
+.btn {
+  padding-top: 10px;
+}
+.btn a{
+padding: 10px;
+background-color: black;
+color: white;
+
+
+}
+
+  
+.shop-top{
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.shop-photos{
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+grid-column-gap:8px;
+grid-row-gap:15px;
+padding-top: 50px;
+}
+ .shop-photos .shop-photo img{
+  width:100%;
+} 
+.shop-btn{
+  margin-top:50px;
+  text-align: center;
+}
+.shop-btn a{
+  background-color: #900707;
+  padding: 15px;
+  color: white;
+
+}
+/* our story section  */
+.story-parent{
+  display: flex;
+  justify-content: center;
+  
+}
+.story{
+  width: 400px;
+
+}
+/* the city farm */
+.city-logo{
+  text-align: center;
+  margin-top: 50px;
+}
+.city-photos{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.city-photo{
+  padding-right: 8px;
+  padding-bottom: 50px;
+}
+/* footer */
+.footer-section{
+  background-color:#f6f6f6 ;
+  padding-top: 50px;
+}
+.footer-parent{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+.ftr{
+  display: flex;
+  justify-content: space-between;
+}
